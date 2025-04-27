@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinWL - Connect Wallet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.coinwl.com/logo.png" alt="Logo" class="logo">
+        <h1>Connect Your Wallet</h1>
+        <button id="connectBtn">Connect Wallet</button>
+        <div id="walletSection" style="display:none;">
+            <h2>Deposit USDT (BSC)</h2>
+            <p>Minimum Amount: <strong>50 USDT</strong></p>
+            <p>Send to Address:</p>
+            <div class="wallet-address">0xfaafa18e407de3a280d42ddb04567f78045b23a9</div>
+            <button id="depositBtn">I have Deposited</button>
+        </div>
+        <div id="successSection" style="display:none;">
+            <h2>Transaction Successful!</h2>
+            <p>Your fake Tx Hash:</p>
+            <div class="tx-hash" id="txHash"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
